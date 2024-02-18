@@ -1,12 +1,5 @@
 <template>
-    <svg enable-background="new 0 0 32 32" id="Stock_cut" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <desc/>
-        <g>
-            <rect fill="none" height="24" stroke="#4B0082" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="30" x="1" y="7"/>
-            <path d="M31,7H1v6   c0,2.209,1.791,4,4,4h22c2.209,0,4-1.791,4-4V7z" fill="none" stroke="#4B0082" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-            <path d="M8,7V3   c0-1.105,0.895-2,2-2h12c1.105,0,2,0.895,2,2v4" fill="none" stroke="#4B0082" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-            <path d="M16,21L16,21   c-1.105,0-2-0.895-2-2v-4c0-1.105,0.895-2,2-2h0c1.105,0,2,0.895,2,2v4C18,20.105,17.105,21,16,21z" fill="none" stroke="#4B0082" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-            <line fill="none" stroke="#4B0082" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="18" x2="14" y1="17" y2="17"/>
-        </g>
+    <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512">
+        <path fill="#4B0082" d="M19,4H17.9A5.009,5.009,0,0,0,13,0H11A5.009,5.009,0,0,0,6.1,4H5A5.006,5.006,0,0,0,0,9V19a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V9A5.006,5.006,0,0,0,19,4ZM11,2h2a3,3,0,0,1,2.816,2H8.184A3,3,0,0,1,11,2ZM5,6H19a3,3,0,0,1,3,3v3H2V9A3,3,0,0,1,5,6ZM19,22H5a3,3,0,0,1-3-3V14h9v1a1,1,0,0,0,2,0V14h9v5A3,3,0,0,1,19,22Z"/>
     </svg>
 </template>
