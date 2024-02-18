@@ -41,7 +41,7 @@ const expanded = ref(false);
     flex-direction: column;
     width: 100%;
     position: relative;
-    color: #cccccc;
+    color: #ddd;
     padding-bottom: 10px;
 
     .header-wrapper {
@@ -50,6 +50,7 @@ const expanded = ref(false);
 
         .header {
             font-weight: 700;
+            padding-right: 20px;;
         }
 
         .where {

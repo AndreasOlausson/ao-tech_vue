@@ -12,8 +12,12 @@ const expanded = ref(false);
             </div>
             <div class="where">
                 <slot name="where"></slot>
-                <div v-if="expanded" class="expander"><CollapseIcon /></div>
-                <div v-else class="expander"><ExpandIcon /></div>
+                <div v-if="expanded" class="expander">
+                    <CollapseIcon />
+                </div>
+                <div v-else class="expander">
+                    <ExpandIcon />
+                </div>
             </div>
         </div>
         <div class="content-wrapper" v-if="expanded">
@@ -34,7 +38,7 @@ const expanded = ref(false);
     flex-direction: column;
     width: 100%;
     position: relative;
-    color: #cccccc;
+    color: #ddd;
     padding-bottom: 10px;
 
     .header-wrapper {
@@ -43,6 +47,8 @@ const expanded = ref(false);
 
         .header {
             font-weight: 700;
+            padding-right: 20px;
+            ;
         }
 
         .where {
@@ -50,6 +56,7 @@ const expanded = ref(false);
             display: flex;
             position: relative;
             left: -14px;
+
             .expander {
                 padding-left: 10px;
                 height: 20px;
@@ -57,7 +64,8 @@ const expanded = ref(false);
             }
         }
     }
-    .content-wrapper{
+
+    .content-wrapper {
         background-color: #333333;
         padding: 0 10px;
     }
